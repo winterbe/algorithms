@@ -1,4 +1,4 @@
-let insertionSort = function (array) {
+function insertionSort(array) {
     for (var j = 1; j < array.length; j++) {
         let val = array[j];
         let i = j - 1;
@@ -10,11 +10,11 @@ let insertionSort = function (array) {
     }
 };
 
-let selectionSort = function (array) {
+function selectionSort(array) {
     for (var j = 0; j < array.length - 1; j++) {
-        let k = undefined;
-        for (var i = j; i < array.length; i++) {
-            if (k === undefined || array[i] < array[k]) {
+        let k = j;
+        for (var i = j + 1; i < array.length; i++) {
+            if (array[i] < array[k]) {
                 k = i;
             }
         }
