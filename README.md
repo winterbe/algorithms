@@ -5,6 +5,7 @@ I once again read the book [Introduction to Algorithms](http://mitpress.mit.edu/
 
 ```
 $ babel-node sort/run.js
+$ babel-node search/run.js
 ```
 
 > Make sure you have [Node](https://nodejs.org/) and [Babel](https://babeljs.io/) installed.
